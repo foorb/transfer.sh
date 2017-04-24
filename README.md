@@ -32,8 +32,7 @@ transfer() {
 
 alias transfer=transfer
 ```
-
-## Example
+Now run with:
 ```
 $ transfer test.txt
 ```
