@@ -20,7 +20,7 @@ Upload to virustotal:
 $ curl -X PUT --upload-file nhgbhhj https://transfer.sh/test.txt/virustotal
 
 ```
-## Add alias to .bashrc or .zshrc:
+## Add alias to .bashrc or .zshrc
 ```
 transfer() {
     # write to output to tmpfile because of progress bar
@@ -32,7 +32,7 @@ transfer() {
 
 alias transfer=transfer
 ```
-Now run with:
+Now run it like this
 ```
 $ transfer test.txt
 ```
